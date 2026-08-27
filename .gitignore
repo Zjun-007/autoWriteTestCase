@@ -1,0 +1,13 @@
+# Binaries / outputs
+/bin/
+/out/
+*.exe
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Secrets
+.env
+*.pem

@@ -1,0 +1,20 @@
+llm:
+  # mock: 本地规则生成（无需 API Key）
+  # openai: OpenAI 兼容接口；设置 api_key 或环境变量 OPENAI_API_KEY / AWTC_LLM_API_KEY
+  provider: mock
+  base_url: https://api.openai.com/v1
+  api_key: ""
+  model: gpt-4o-mini
+  temperature: 0.2
+  timeout_sec: 60
+  max_retries: 2
+
+generate:
+  prompt_version: v1
+  formats:
+    - json
+    - excel
+    - markdown
+
+paths:
+  prompt_dir: prompts
