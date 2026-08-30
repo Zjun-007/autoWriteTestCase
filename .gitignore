@@ -1,6 +1,8 @@
 # Binaries / outputs
 /bin/
 /out/
+doc/
+scripts/
 *.exe
 
 # IDE / OS
