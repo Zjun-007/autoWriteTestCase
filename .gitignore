@@ -3,6 +3,7 @@
 /out/
 doc/
 scripts/
+.cursor/
 *.exe
 
 # IDE / OS
@@ -13,3 +14,7 @@ scripts/
 # Secrets
 .env
 *.pem
+
+# Cursor hooks audit log (may contain command args / output)
+.cursor/history-log
+.cursor/history-log.*
